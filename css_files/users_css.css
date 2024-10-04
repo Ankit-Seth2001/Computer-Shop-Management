@@ -1,0 +1,196 @@
+.container-fluid {
+  width: 98%;
+  height: 100%;
+}
+body {
+  background-image: url("background.jpg");
+}
+.carousel-item img {
+  width: 450px;
+  height: 600px;
+}
+.header {
+  text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #7cdf6a;
+  font-size: 20px;
+  font: weight 200px;
+}
+a.nav-link {
+  font-size: larger;
+  font-variant: all-petite-caps;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(189, 56, 129);
+  font-size: 22px;
+  font-variant: all-petite-caps;
+}
+
+.title {
+  margin: 18px;
+}
+
+/* Address css */
+#heading {
+  font-size: 30px;
+  font-weight: 100;
+  font-family: Arial;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+#address {
+  /* border: 2px groove #9e7fbb; */
+  float: left;
+  padding: 15px;
+}
+.form-control {
+  width: 400px;
+}
+.form-group {
+  margin: 20px;
+  margin-top: 10px;
+}
+label {
+  font-weight: 100;
+  font-family: Arial;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+/* address css end */
+#signup,
+#login {
+  margin: 132px 86px;
+  min-height: min-content;
+  max-height: max-content;
+  padding: 20px;
+  width: 500px;
+  border: 3px solid #f3bc18;
+  background-color: #c6f1e2;
+ 
+}
+.container {
+  margin: 63px 441px;
+  min-height: 650px;
+  max-height: 700px;
+  height: 600px;
+  width: 700px;
+  border: 4px solid #5391db;
+  background-color: #d9e0e9;
+}
+
+h1.heading {
+  font-size: 2.5rem;
+  text-align: -webkit-center;
+}
+
+/* products dispaly css */
+img.card-img-top {
+  height: 243px;
+  width: 241px;
+}
+.card-text {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.strike {
+  text-decoration: overline;
+}
+.items {
+  text-align: center;
+}
+/* products display css end */
+
+#Qty {
+  word-wrap: normal;
+  width: 136px;
+  margin: 11px;
+  padding: 2px;
+}
+
+/* Order Summery Css */
+h3 {
+  margin: 5px;
+  padding: 3px;
+}
+
+.Qty {
+  width: 20px;
+}
+
+/* Hearer file */
+/* div.logout{float: right;} */
+.col-md-1 logout {
+  border: 2px solid red;
+  align-items: right;
+}
+
+/*  in profile edit user's css  */
+#model {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: none;
+}
+
+#model-form {
+  background: #fff;
+  width: 40%;
+  position: relative;
+  top: 20%;
+  left: calc(50% - 20%);
+  padding: 15px;
+  border-radius: 4px;
+}
+#model-form h2 {
+  margin: 0 0 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+#close-btn {
+  background: red;
+  color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  
+  background: #cee7d2;
+  border: 3px solid #ddd498;
+  width: 98%;
+  height: 50%;
+  border-radius: 20px;
+  margin: 15px;
+}
+.footer li {
+  list-style-type: none;
+  margin: 19px;
+  display: inline-block;
+}
+ul#foot {
+  margin: auto;
+  text-align: center;
+}
+.footer li a {
+  padding: 2px 2px;
+  margin: 10px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
